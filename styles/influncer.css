@@ -1,0 +1,142 @@
+/*fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@500&display=swap');
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    margin-right: 120px;
+}
+nav li{
+    list-style: none;
+    margin-left: 15px;
+}
+.nav-subtitle{
+    
+    margin-left: 166px;
+}
+.button-primary{
+    
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background: palevioletred;
+}
+.banner{
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.banner img{
+    width: 440px;
+    height: 414px;
+}
+.banner-title{
+    width: 582px;
+    height: 133px;
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-description{
+    width: 505px;
+    height: 60.9px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    margin: 227px;
+    background: whitesmoke;
+    padding: 18px;
+}
+.container{
+    margin-left: 210px;
+    margin-right: 212px;
+    
+}
+.container-title{
+  
+    margin-left: 415px;
+    margin-right: 415px;
+    margin-bottom: 30px;
+   
+   
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid gainsboro;
+    padding-left: 30px;
+    padding-right: 24px;
+    padding-top: 30px;
+}
+.product{
+    border: 1px solid whitesmoke ;
+    border-radius: 5px;
+}
+.feature{
+    display: flex;
+    justify-content: space-around;
+}
+.featured{
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 80px;
+}
+.feature-info{
+  padding-left: 35px;
+}
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+    
+}
+footer{
+    background-color: black;
+    
+}
+.continer{
+    padding: 100px 200px 100px;
+    color: white;
+   
+    
+}
+.footer-test{
+    font-size: 12px;
+    margin-left: 400px;
+}
+.influncer{
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 400px;
+}
+.footer-end{
+   margin-left: 400px ;
+}
+.logo{
+    
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+/*mobile devices*/
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .header, .banner, .products, .feature{
+        grid-template-columns: repeat(1, 1fr);
+    }
+      .featured, .product{
+        flex-direction: column;
+      }
+
+    
+}
